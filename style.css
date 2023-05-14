@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  font-size: 1.85rem !important;
+}
+.gradient {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 54%,
+    rgba(229, 70, 252, 1) 100%
+  );
+}
+.hero {
+  margin: 4rem 0 0 0;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.feature {
+  color: #fff;
+}
+.feature ul {
+  padding: 0 0 0 2rem;
+  list-style: none;
+}
+.feature ul li {
+  padding-left: 2rem;
+  background-image: url("img/check.svg");
+  background-repeat: no-repeat;
+  line-height: 1.5rem;
+  margin: 0 0 1rem 0;
+}
+
+.icons .icon {
+  color: #fff;
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  background-color: whitesmoke;
+}
+.services {
+  color: #fff;
+}
+.footer {
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem;
+}
